@@ -11,5 +11,14 @@ public class Main {
 
         book.setPublicationYear(124);
         System.out.println("новый год издания " + book.getPublicationYear());
+
+        System.out.println(book.equals(book1));
+
+        System.out.println( "hashcode book = " + book.hashCode());
+        System.out.println( "hashcode book1 = " + book1.hashCode());
+
+
+
+
     }
 }
